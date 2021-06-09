@@ -1,6 +1,6 @@
 import java.util.*;  
   
-public class Main {  
+public class Stringtokenizer_1{  
    public static void main(String[] args) {  
        StringTokenizer st = new StringTokenizer("1 2 3 4 5"," ");  
          System.out.println("No of elemnts="+st.countTokens());

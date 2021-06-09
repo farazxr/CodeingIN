@@ -1,11 +1,11 @@
 import java.util.*;  
   
-public class Main {  
+public class Strng_Tokenzer_2 {  
    public static void main(String[] args) {  
        StringTokenizer st = new StringTokenizer("1 2 3 4 5"," ");  
          System.out.println("No of elemnts="+st.countTokens());
       // printing next token  
-      int []ar=new int[10]; int sum=0;
+      int []ar=new int[10]; 
       int len=st.countTokens(); //dont keep directly in for loop as it's value is dynamic!!
       for(int i=0;i<len;i++){
           ar[i]=Integer.parseInt(st.nextToken());
